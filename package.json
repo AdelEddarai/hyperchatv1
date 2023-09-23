@@ -79,7 +79,7 @@
   },
   "scripts": {
     "build": "webpack build",
-    "start": "react-scripts start",
+    "start": "webpack start",
     "esbuild": "node ../../scripts/build-webapp",
     "dev": "node ../../scripts/dev-webapp",
     "format": "prettier -w src"
