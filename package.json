@@ -78,8 +78,8 @@
     "worker-timers": "^7.0.40"
   },
   "scripts": {
-    "build": "webpack --node-env production",
-    "start": "webpack serve",
+    "build": "react-scripts build",
+    "start": "react-scripts start",
     "esbuild": "node ../../scripts/build-webapp",
     "dev": "node ../../scripts/dev-webapp",
     "format": "prettier -w src"
