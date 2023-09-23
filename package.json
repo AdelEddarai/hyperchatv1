@@ -78,7 +78,7 @@
     "worker-timers": "^7.0.40"
   },
   "scripts": {
-    "build": "react-scripts build",
+    "build": "webpack build",
     "start": "react-scripts start",
     "esbuild": "node ../../scripts/build-webapp",
     "dev": "node ../../scripts/dev-webapp",
